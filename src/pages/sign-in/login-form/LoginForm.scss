@@ -1,0 +1,25 @@
+form {
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+
+  input {
+    border: none;
+    padding: 15px;
+    width: 250px;
+    border-bottom: 1px solid #a7bcff;
+
+    &::placeholder {
+      color: rgb(175, 175, 175);
+    }
+  }
+
+  button {
+    background-color: #7b96ec;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+}
